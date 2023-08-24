@@ -1,0 +1,251 @@
+*{
+    margin: 0;padding:0 ;box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+ul{
+    list-style:none ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* common css starts */
+.button{
+    display: inline-block;
+    padding: 19px 42px;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    color: #0b1016;
+}
+.pera{
+    width: 680px;
+    margin: auto;
+    font-size: 16px;
+text-align: center;
+color: #888;
+line-height: 24px;
+}
+/* common css ends */
+/* navber starts here */
+nav{
+background-color:#02918c;
+}
+nav .logo{
+    width: 40%;
+    align-self: center;
+}
+nav .menu{
+    width:60%;
+    text-align:right;
+}
+nav .menu ul li{
+display:inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding:26px 25px ;
+    display:block;
+}
+/* navber ends here */
+/* banner starts here */
+#banner{
+    background-image:url(../img/MYFOLIO.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.34);
+    background-blend-mode: multiply;
+}
+#banner.container,
+#banner .row{ text-align: center;
+    height: 100%;
+}
+.banner-cnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin-top: 20%;
+}
+.banner-cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+    
+}
+.banner-cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+.banner-cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.banner-cnt img{
+    margin: 50px 0px;
+    display: block;
+    margin:50px auto;
+}
+/* banner ends here */
+ /*sction about star*/
+ .heading{text-align: center;
+ }
+ .heading h2{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+ }
+ .heading span{
+    font-size: 16px;
+    color: #7e8287;
+ }
+ 
+ #about{
+    padding: 98px 0px;
+ }
+ 
+.heading p1 span{
+    font-weight: 800;
+}
+.about_card{
+    width: 25%;
+    text-align: center;
+    margin-top:50px ;
+    padding: 40px 0px;
+    border-right:1px solid;
+    color: #ddd;
+}
+.about_card span{
+    color: #17b3ae;
+    font-size: 30px;
+}
+.about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 20px 0px;
+}
+.about_card p{
+    font-size: 11px;
+    color: #7e8287;
+    padding: 0px 51px;
+}
+.about_card:last-child{
+border: none;
+}
+ /* section about ends*/ 
+ /* section services starts */
+  
+ /* section services ends */
+
+#services{
+background-image: url(../img3/MYFOLIO.jpg);
+
+height:500px ;
+}
+#services .service-tag {
+    width: 40% ;
+}
+
+#services .service-tag h1{
+    color: 02918c;
+   
+}
+
+ /* section my work starts */
+ #work{
+ padding: 40px 0px;
+ }
+ .row{
+    width: 100%;
+ }
+ .work-card{
+
+    width: 25%;
+
+ }
+ .work-card img{
+    width: 100%;
+    display: block;
+ }
+ .work-card .overlay{
+    position: absolute;
+    background-color: rgba(2,145,140,0.85);
+    text-align: center;
+    color: white;
+    inset: 28px;
+    padding-top: 50px;
+    text-align: center;
+    transform: scale(0);
+    opacity: 0;
+    transition: 0.5s;
+ }
+ .work-card:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+ }
+ #work{
+    padding: 40px 0px;
+ }
+
+ /* section my work ends */
+/* section contact starts */
+#contact{
+    padding: 40px 0px;
+}
+/* section contact ends */
+/* section form starts */
+#form{
+background-color: #0b0b0b;
+padding: 40px 0px;
+}
+.form-input{
+    width: 640px;
+    margin: auto;
+}
+.form-input textarea,
+.form-input input{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.form-input.Subject
+{
+  width:800px ;  
+}
+.form-input.MESSAGE{
+    width: 800px;
+}
+.button{
+    margin: 30px;
+}
+footer p{
+    text-align: center;
+    color: #17b3ae8c;
+    border: 1px solid;
+     border-color: #0b0b0b;
+}
+/* section form ends */
+
+
